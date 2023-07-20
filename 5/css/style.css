@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+main{
+    height: 80vh;
+    display: flex;
+}
+
+article{
+    background-color: grey;
+    width: 60%;
+}
+
+aside{
+    background-color: lightgrey;
+    width: 20%;
+}
+
+nav{
+    background-color: lightgrey;
+    width: 20%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 20px;
+}

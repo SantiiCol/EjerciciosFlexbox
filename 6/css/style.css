@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(148, 217, 233);
+
+}
+
+.caja-1{
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    width: 20%;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 5px 5px 10px;
+}
+.caja-1 h1{
+    background-color: salmon;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.caja-1 p{
+    margin: 10px;
+    padding: 5px;
+    width: 90%;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+
+.caja-2 h1{
+    background-color: salmon;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.caja-2 p{
+    margin: 4px;
+    padding: 10px;
+    width: 90%;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+
+.caja-3 h1{
+    background-color: salmon;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.caja-3 p{
+    margin: 4px;
+    padding: 10px;
+    width: 90%;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+
+.caja-2{
+    height: 480px;
+    width: 20%;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 5px 5px 10px;
+}
+
+.caja-3{
+    height: 480px;
+    width: 20%;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 5px 5px 10px;
+}
+
+a{
+    text-decoration: none;
+    background-color: lightgray;
+    color: black;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.otr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: baseline;
+    height: 73%;
+}
